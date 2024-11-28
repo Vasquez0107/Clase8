@@ -17,12 +17,18 @@ p {
 }
 
 .nav:hover a {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(54, 203, 198);
+    background-color: black;
+    color: blue;
 }
 
 a {
+    background-color: rgb(184, 175, 175);
+    color: brown;
     text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: backround-color 0,2s, color o,2s;
+    display: inline-block;
 }
 
 .main {
